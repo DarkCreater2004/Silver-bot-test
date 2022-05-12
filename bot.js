@@ -4,7 +4,7 @@ const events = require("./events");
 const chalk = require('chalk');
 const config = require('./config');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./aqua');
+const {Message, StringSession, Image, Video} = require('./silver');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
@@ -464,7 +464,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
 
                             if (config.LANG == 'SI') {
                                 await cobrabotconn.sendMessage(cobrabotconn.user.jid, '*♦︎✧දෝෂ වාර්තාව (🐋AQUABOT 🐋)✧♦︎*' + 
-                                    '\n*AQUABOT දෝෂයක් සිදු වී ඇත!*'+
+                                    '\n*SILVER BOT දෝෂයක් සිදු වී ඇත!*'+
                                     '\n_මෙම දෝශ ලඝු සටහනෙහි ඔබේ අංකය හෝ සගයෙකුගේ අංකය ඇතුළත් විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_දෝෂය පිළීබඳ Admin දැනුවත් කරන්න._' +
                                     '\n_උදව් සඳහා ඔබට අපගේ Whatsapp කණ්ඩායමට ලිවිය හැකිය._' +
