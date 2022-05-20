@@ -24,7 +24,7 @@ Silver.addCommand({pattern: 'update$', fromMe: true, desc: Lang.UPDATER_DESC, de
         var degisiklikler = Lang.NEW_UPDATE;
         commits['all'].map(
             (commit) => {
-                degisiklikler += '�� [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n_\n';
+                degisiklikler += '�� [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + '🥷 𝐷𝛥𝑅𝛫 𝛭𝛯𝛫𝛯𝑅 🥷' + '>\n_\n';
             }
         );
         
