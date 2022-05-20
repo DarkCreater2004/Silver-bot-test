@@ -12,7 +12,7 @@ const Language = require('../language');
 const Lang = Language.getString('updater');
 
 
-Silver.addCommand({pattern: 'update$', fromMe: true, desc: Lang.UPDATER_DESC, deleteCommand: false}, (async (message, match) => {
+Silver.addCommand({pattern: 'up$', fromMe: true, desc: Lang.UPDATER_DESC, deleteCommand: false}, (async (message, match) => {
     await git.fetch();
     var commits = await git.log([Config.BRANCH + '..origin/' + Config.BRANCH]);
     if (commits.total === 0) {
@@ -35,7 +35,7 @@ Silver.addCommand({pattern: 'update$', fromMe: true, desc: Lang.UPDATER_DESC, de
     }
 }));
 
-Silver.addCommand({pattern: 'update now$', fromMe: true, desc: Lang.UPDATE_NOW_DESC, deleteCommand: false}, (async (message, match) => {
+Silver.addCommand({pattern: 'up now$', fromMe: true, desc: Lang.UPDATE_NOW_DESC, deleteCommand: false}, (async (message, match) => {
     await git.fetch();
     var commits = await git.log([Config.BRANCH + '..origin/' + Config.BRANCH]);
     if (commits.total === 0) {
