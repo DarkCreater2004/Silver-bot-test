@@ -2,10 +2,10 @@
     "name": "SILVER BOT",
     "description": "SILVERBOT  - THE NOOB WHATSAPP BOT.",
     "logo": "https://i.ibb.co/LhyDWxR/aquabot.jpg",
-    "keywords": ["whatsapp", "userbot", "aqua", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/iamMagma/ptsp",
-    "website":   "https://aquabot.ga/",
-    "success_url": "https://sanuw-api.herokuapp.com/",
+    "keywords": ["whatsapp", "userbot", "silver", "WhatsAsena", "bot", "api", "ai"],
+    "repository": "https://github.com/MRnimaofc2/SILVER-BOT-TEST",
+    "website":   "https://silverbot.ga/",
+    "success_url": "https://github.com/MRnimaofc2/SILVER-BOT-TEST",
     "stack": "container",
     "env": {
         "SILVER_SESSION": {
