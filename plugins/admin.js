@@ -22,7 +22,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-Silver.addCommand({pattern: 'ban ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.BAN_DESC, deleteCommand: false}, (async (message, match) => {
+Silver.addCommand({pattern: 'ban ?(.*)', fromMe: true, onlyGroup: false, desc: Lang.BAN_DESC, deleteCommand: false}, (async (message, match) => {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
