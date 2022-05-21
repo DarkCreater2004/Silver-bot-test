@@ -1,14 +1,14 @@
 {
-  "name": "aquabot",
-  "version": "1.0.1",
-  "description": "aquabot happy for whatsapp.",
-  "main": "/aquabot/bot.js",
+  "name": "silverbot",
+  "version": "1.0.0",
+  "description": "silver happy for whatsapp.",
+  "main": "/silverbot/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanuwaofficial/AquaBot.git"
+    "url": "git+https://github.com/MRnimaofc2/SILVER-BOT-TEST.git"
   },
   "keywords": [
     "whatsapp",
@@ -22,16 +22,16 @@
     "whatsapp web",
     "whatsapp api"
   ],
-  "author": "sanuwa",
-  "developer": "sanuwa",
+  "author": "nima",
+  "developer": "nima",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sanuwaofficial/AquaBot/issues"
+    "url": "https://github.com/MRnimaofc2/SILVER-BOT-TEST/issues"
   },
-  "homepage": "https://github.com/sanuwaofficial/AquaBot",
+  "homepage": "https://github.com/MRnimaofc2/SILVER-BOT-TEST",
   "dependencies": {
    
-    "aquabot": "^1.0.0",
+    "silverbot": "^1.0.0",
     "hxz-api": "^1.0.1",
     "emoji-api": "^2.0.1",  
     "cobra_dl": "^1.0.11",
