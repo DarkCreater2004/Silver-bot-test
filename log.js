@@ -8,7 +8,7 @@ const {execFile} = require('child_process');
 const Language = require('../language'); 
 const Lang = Language.getString('log'); 
 
-Aqua.addCommand({ pattern: 'log', fromMe: true, desc: Lang.LOG, warn: Lang.ANIM, onlyGroup: true , deleteCommand: false}, (async (message, match) => { 
+Aqua.addCommand({ pattern: 'log', fromMe: true, desc: Lang.LOG, warn: Lang.ANIM, onlyGroup: false , deleteCommand: false}, (async (message, match) => { 
 
     const meta = await message.client.groupMetadata(message.jid)
     const usmeta = message.client.isOnWhatsApp(message.jid)
