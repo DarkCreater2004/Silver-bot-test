@@ -131,7 +131,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
         console.log(
             chalk.green.bold('✅ Plugin ස්ථාපනය කර ඇත!')
        );
-          var userjidlogo = await axios.get('https://i.ibb.co/P9tHKYX/Whats-App-Image-2022-02-01-at-18-51-53.jpg', { responseType: 'arraybuffer' })
+          var userjidlogo = await axios.get('https://i.ibb.co/cQB8MCt/logandheroku.jpg', { responseType: 'arraybuffer' })
         if (config.WORKTYPE == 'private') { 
          if (config.LANG == 'EN') { 
            
