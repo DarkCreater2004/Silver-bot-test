@@ -1,6 +1,6 @@
 const Silver = require('../events');
 const Config = require('../config');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 
 const Language = require('../language');
