@@ -113,7 +113,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Aqua.addCommand({pattern: 'menu ?(.*)', fromMe: false, dontAddCommandList: true, deleteCommand: false}, (async (message, match) => {
+    Silver.addCommand({pattern: 'menu ?(.*)', fromMe: false, dontAddCommandList: true, deleteCommand: false}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
