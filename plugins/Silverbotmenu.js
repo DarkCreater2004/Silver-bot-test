@@ -1,4 +1,4 @@
-const Silver = require('../events');
+/*const Silver = require('../events');
 const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 
@@ -217,3 +217,4 @@ else if (Config.WORKTYPE == 'public') {
         }
     }));
 }
+*/
