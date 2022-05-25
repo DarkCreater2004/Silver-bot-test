@@ -4,7 +4,7 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 
 const Language = require('../language');
-const Lang = Language.getString('aqua');
+const Lang = Language.getString('silver');
 
 if (Config.WORKTYPE == 'private') {
 
