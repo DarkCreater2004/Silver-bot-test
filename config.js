@@ -17,7 +17,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './cobramain.db' : proce
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: '🪐SILVER 1.0 beta',
+    VERSION: '🪩 Silver 1.0',
     CHANNEL: 'https://t.me/',
     SESSION: process.env.SILVER_SESSION === undefined ? '' : process.env.SILVER_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
