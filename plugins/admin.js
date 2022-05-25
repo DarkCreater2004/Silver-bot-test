@@ -94,7 +94,7 @@ Silver.addCommand({pattern: 'add(?: |$)(.*)', fromMe: true, onlyGroup: false, de
     }
 }));
 
-Silver.addCommand({pattern: 'promote ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.PROMOTE_DESC}, (async (message, match) => {
+Silver.addCommand({pattern: 'promote ?(.*)', fromMe: true, onlyGroup: false, desc: Lang.PROMOTE_DESC}, (async (message, match) => {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -152,7 +152,7 @@ Silver.addCommand({pattern: 'promote ?(.*)', fromMe: true, onlyGroup: true, desc
     }
 }));
 
-Silver.addCommand({pattern: 'demote ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.DEMOTE_DESC, deleteCommand: false }, (async (message, match) => {
+Silver.addCommand({pattern: 'demote ?(.*)', fromMe: true, onlyGroup: false, desc: Lang.DEMOTE_DESC, deleteCommand: false }, (async (message, match) => {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN);
 
