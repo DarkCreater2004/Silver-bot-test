@@ -14,11 +14,11 @@ var time = new Date().toLocaleString('HI', { timeZone: Config.STIME_ZONE }).spli
     
   Silver.addCommand({pattern: 'alive', fromMe: wk, desc: Lang.ALIVE_DESC, deleteCommand: false }, (async (message, match) => {
             var wish = ''
-if (hrs < 12) wish = '*ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅*'
-if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞*'
-if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌇*'
-if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🪐*'
-var nima = '╭───────────────╮\n├─ *🥷 xʏᴢᴀʜᴛ ʙᴏᴛ 🥷*\n├─  ⌚ ɴᴏᴡ ᴀᴛ :'+time+'\n├─  📡 ʜᴀɴᴅʟᴇʀs : '+'*'+Config.HANDLERS+'*'+'\n├─'+wish+' *ғʀᴏ ʏᴏᴜ 💞*\n╰───────────────╯'
+if (hrs < 12) wish = '*ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅* '
+if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞* '
+if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌇* '
+if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🪐* '
+var nima = '╭────────────────────╮\n├─ *🥷 xʏᴢᴀʜᴛ ʙᴏᴛ 🥷*\n├─  ⌚ ɴᴏᴡ ᴀᴛ :'+time+'\n├─  📡 ʜᴀɴᴅʟᴇʀs : '+'*'+Config.HANDLERS+'*'+'\n├─'+wish+' *ғʀᴏ ʏᴏᴜ 💞*\n╰────────────────────╯'
 
 
         
@@ -26,14 +26,14 @@ var nima = '╭───────────────╮\n├─ *🥷 x�
             
         var aliveimg = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
 
-        await message.client.sendMessage (message.jid, Buffer.from (aliveimg.data), MessageType.image, {mimetype: Mimetype.png, caption: nima+'```👋Hey, I\'m online now```\n\n│ ```Type``` ' + '.menu' + ' ```to get command list```\n\n│ _Version_: ```'  + Config. VERSION + '```\n',quoted: message.data })
+        await message.client.sendMessage (message.jid, Buffer.from (aliveimg.data), MessageType.image, {mimetype: Mimetype.png, caption: nima+'\n\n```👋Hey, I\'m online now```\n\n│ ```Type``` ' + '.menu' + ' ```to get command list```\n\n│ _Version_: ```'  + Config. VERSION + '```\n',quoted: message.data })
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: nima+Config.ALIVEMSG + '\n',quoted: message.data })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: nima+'\n\n'+Config.ALIVEMSG + '\n',quoted: message.data })
      }
     }));
 
