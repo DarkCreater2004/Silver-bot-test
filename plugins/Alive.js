@@ -5,6 +5,7 @@ const Config = require('../config');
 const chalk = require('chalk');
 const axios = require('axios');
 let wk = Config.WORKTYPE == 'public' ? false : true
+const hrs = new Date().getHours({ timeZone: Config.TIME_ZONE })
 
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
