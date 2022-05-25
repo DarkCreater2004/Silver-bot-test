@@ -6,8 +6,8 @@
   
   "STRINGS": {
         "silver": {
-            "COMMAND": "Command",
-            "DESC": "Description",
+            "COMMAND": "Cmd",
+            "DESC": "Descp",
             "EXAMPLE": "Example",
             "NOT_FOUND": "*I couldnt find a command like this*",
             "WARN": "Warn"
