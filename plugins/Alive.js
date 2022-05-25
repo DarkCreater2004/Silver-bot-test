@@ -26,7 +26,7 @@ var nima = '╭────────────────────╮\n
             
         var aliveimg = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
 
-        await message.client.sendMessage (message.jid, Buffer.from (aliveimg.data), MessageType.image, {mimetype: Mimetype.png, caption: nima+'\n\n```👋Hey, I\'m online now```\n\n│ ```Type``` ' + '.menu' + ' ```to get command list```\n\n│ _Version_: ```'  + Config. VERSION + '```\n',quoted: message.data })
+        await message.client.sendMessage (message.jid, Buffer.from (aliveimg.data), MessageType.image, {mimetype: Mimetype.png, caption: nima+'\n\n*║👋Hey, I\'m online now...*\n\n║ ```Type``` ' + '*.menu*' + ' ```to get command list```\n\n║ _Version_: ```'  + Config. VERSION + '```\n\n*╰────────────❋*',quoted: message.data })
 
     }
     else {
