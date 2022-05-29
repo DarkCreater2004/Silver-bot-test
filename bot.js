@@ -135,23 +135,23 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
         if (config.WORKTYPE == 'private') { 
          if (config.LANG == 'EN') { 
            
-             var privateen = '*silverbot Working as Private!🪐*\n\n```Please do not try plugins here. This is your LOG number.```\n\n```You can use commands in any other chat :)```\n\n*Your bot is working as private.*\n*To change it, use* \n.setvar WORK_TYPE:public\n\n\n```Thanks For Using silverbot 🥷```'
+             var privateen = '*[⚓]─⦁ 𝚂𝙸𝙻𝚅𝙴𝚁 𝙱𝙾𝚃 ⦁─[⚓] Working as Private! 📍*\n\n```Please do not use commands here. This is your LOG number. 📈```\n\n```You can use commands in any other chat 😜```\n\n*Your bot is working as private.*\n*To change it, use* \n.setvar WORK_TYPE:public\n\n\n```Thanks For Using ⎝⚓⎠ silverbot ⎝⚓⎠```'
              await cobrabotconn.sendMessage(cobrabotconn.user.jid, Buffer.from(userjidlogo.data), MessageType.image, {mimetype: Mimetype.jpg, caption: privateen});
              
          } else if (config.LANG == 'SI') {
              
-             var privatesi = '*silverbot ප්‍රයිවට් ආකාරයට ක්‍රියා කරයි🪐*\n\n```කරුණාකර මෙහි plugins භාවිත නොකරන්න.මෙය ඔබගේ log අංකයයි.```\n\n```වෙනත් ඕනෑම chat එකක විධානයන් භාවිත කළ හැකිය.```\n\n*ඔබේ bot private ආකරයෙන් ක්‍රියාකරයි.*\n*එය වෙනස් කිරීමට* ,\n.setvar WORKTYPE:public\n*යන විධානය භාවිත කරන්න.*\n\n\n```silverbot භාවිත කරනවාට ස්තූතියි🪐```'
+             var privatesi = '*[⚓]─⦁ 𝚂𝙸𝙻𝚅𝙴𝚁 𝙱𝙾𝚃 ⦁─[⚓] ප්‍රයිවට් ආකාරයට ක්‍රියා කරයි 📍*\n\n```කරුණාකර මෙහි plugins භාවිත නොකරන්න.මෙය ඔබගේ log අංකයයි. 📈```\n\n```වෙනත් ඕනෑම chat එකක විධානයන් භාවිත කළ හැකිය. 😜```\n\n*ඔබේ bot private ආකරයෙන් ක්‍රියාකරයි.*\n*එය වෙනස් කිරීමට* ,\n.setvar WORKTYPE:public\n*යන විධානය භාවිත කරන්න.*\n\n\n```⎝⚓⎠ silverbot ⎝⚓⎠ භාවිත කරනවාට ස්තූතියි```'
              await cobrabotconn.sendMessage(cobrabotconn.user.jid,Buffer.from(userjidlogo.data), MessageType.image, {mimetype: Mimetype.png, caption: privatesi})
         }
               }else if (config.WORKTYPE == 'public') { 
                   
          if (config.LANG == 'EN') { 
-            var publicen = '*silverbot Working as Public!🪐*\n\n```Please do not try plugins here. This is your LOG number.```\n\n```You can use commands in any other chat :)```\n\n*Your bot is working as public.*\n*To change it, use* \n.setvar WORK_TYPE:private\n\n\n```Thanks For Using silverbot 🥷```'
+            var publicen = '*[⚓]─⦁ 𝚂𝙸𝙻𝚅𝙴𝚁 𝙱𝙾𝚃 ⦁─[⚓] Working as Public! 🌐*\n\n```Please do not try plugins here. This is your LOG number. 📈```\n\n```You can use commands in any other chat 😜```\n\n*Your bot is working as public.*\n*To change it, use* \n.setvar WORK_TYPE:private\n\n\n```Thanks For Using ⎝⚓⎠ silverbot ⎝⚓⎠```'
               await cobrabotconn.sendMessage(cobrabotconn.user.jid,Buffer.from(userjidlogo.data), MessageType.image, {mimetype: Mimetype.png, caption: publicen})
 
          } else if (config.LANG == 'SI') {
              
-             var publicsi = '*silverbot පබ්ලික් ආකාරයට ක්‍රියා කරයි🪐*\n\n```කරුණාකර මෙහි plugins භාවිත නොකරන්න.මෙය ඔබගේ log අංකයයි.```\n\n```වෙනත් ඕනෑම chat එකක විධානයන් භාවිත කළ හැකිය.```\n\n*ඔබේ bot public ආකරයෙන් ක්‍රියාකරයි.*\n*එය වෙනස් කිරීමට* ,\n.setvar WORKTYPE:private\n*යන විධානය භාවිත කරන්න.*\n\n\n```silverbot භාවිත කරනවාට ස්තූතියි🥷```'
+             var publicsi = '*[⚓]─⦁ 𝚂𝙸𝙻𝚅𝙴𝚁 𝙱𝙾𝚃 ⦁─[⚓] පබ්ලික් ආකාරයට ක්‍රියා කරයි 🌐*\n\n```කරුණාකර මෙහි plugins භාවිත නොකරන්න.මෙය ඔබගේ log අංකයයි. 📈```\n\n```වෙනත් ඕනෑම chat එකක විධානයන් භාවිත කළ හැකිය. 😜```\n\n*ඔබේ bot public ආකරයෙන් ක්‍රියාකරයි.*\n*එය වෙනස් කිරීමට* ,\n.setvar WORKTYPE:private\n*යන විධානය භාවිත කරන්න.*\n\n\n```⎝⚓⎠ silverbot ⎝⚓⎠ භාවිත කරනවාට ස්තූතියි```'
               await cobrabotconn.sendMessage(cobrabotconn.user.jid,Buffer.from(userjidlogo.data), MessageType.image, {mimetype: Mimetype.png, caption: publicsi})
         }
        }
