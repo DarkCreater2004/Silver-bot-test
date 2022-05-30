@@ -21,7 +21,7 @@ module.exports = {
     CHANNEL: 'https://t.me/',
     SESSION: process.env.SILVER_SESSION === undefined ? '' : process.env.Silver_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
-    ANTI_BADS: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTI_BADS
+    ANTI_BADS: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTI_BADS,
     ANTIGROUP: process.env.ANTIGRP_LINK === undefined ? 'false' : process.env.ANTIGRP_LINK,
     VOICEEVA: process.env.VOICE_EVA === undefined ? 'false' : process.env.VOICE_EVA,
     CHATBOT: process.env.CHATBOT === undefined ? 'false' : process.env.CHATBOT,
